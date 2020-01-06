@@ -66,5 +66,12 @@ The instructions to program the board is this [website](http://archive.fabacadem
 
 To download the firmware you can go [here](http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip) or download from [here](USBtiny-ISP-Programmer-ATtiny44/Firmware-Instructions/firmware.zip)
 
+The toolchain for programming you can download from:
+- [Ubuntu](http://ubuntuhandbook.org/index.php/2017/01/install-avrdude-6-4-ubuntu-16-04/)
+- [Mac OS](https://www.ladyada.net/learn/avr/setup-mac.html)
+- [Windows](https://www.ladyada.net/learn/avr/setup-win.html)
 
+## Usage
+
+Once you programmed your FabISP you want to try if it works, so, if you are using Microsoft Windows you will need a [driver.](https://learn.adafruit.com/usbtinyisp/drivers)
 
