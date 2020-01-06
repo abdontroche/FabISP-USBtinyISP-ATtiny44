@@ -48,6 +48,8 @@ It is a HTML file called [ibom.html](USBtiny-ISP-Programmer-ATtiny44/bom/ibom.ht
 
 ## 3D view
 
+[Download-3D-Model](USBtiny-ISP-Programmer-ATtiny44/3D-Model/USBtiny-ISP-Programmer-ATtiny44.step)
+
 ![image](USBtiny-ISP-Programmer-ATtiny44/Images-Board/Board-Layout-01.svg)
 
 ![image](USBtiny-ISP-Programmer-ATtiny44/Images-Board/Board-Layout-02.svg)
