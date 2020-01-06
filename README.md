@@ -46,6 +46,10 @@ It is a HTML file called [ibom.html](USBtiny-ISP-Programmer-ATtiny44/bom/ibom.ht
 
 ![image](USBtiny-ISP-Programmer-ATtiny44/Images-Board/USBtiny-ISP-Programmer-ATtiny44-F_SilkS-Paste-Mask-Fab-Cu.svg)
 
+## Fabrication Files
+
+[Download-Gerbers](USBtiny-ISP-Programmer-ATtiny44/Gerber/USBtiny-ISP-Programme-ATtiny44-Gerber.zip)
+
 ## 3D view
 
 [Download-3D-Model](USBtiny-ISP-Programmer-ATtiny44/3D-Model/USBtiny-ISP-Programmer-ATtiny44.step)
