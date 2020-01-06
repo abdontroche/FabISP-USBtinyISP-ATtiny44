@@ -1,0 +1,582 @@
+EESchema Schematic File Version 4
+LIBS:USBtiny ISP Programmer ATtiny44-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2020-01-02"
+Rev "rv01"
+Comp ""
+Comment1 ""
+Comment2 "SOURCE:http://academy.cba.mit.edu/classes/embedded_programming/index.html#programmers"
+Comment3 "LICENSE: MIT"
+Comment4 "AUTHOR: ABDON TROCHE"
+$EndDescr
+$Comp
+L dk_USB-DVI-HDMI-Connectors:690-005-299-043 J3
+U 1 1 5E0F7A7C
+P 10400 5900
+F 0 "J3" H 10707 6521 60  0000 R CNN
+F 1 "690-005-299-043" H 10707 6627 60  0000 R CNN
+F 2 "digikey-footprints:USB_Mini_B_Female_690-005-299-043" H 10600 6100 60  0001 L CNN
+F 3 "http://files.edac.net/690-005-299-043.pdf" H 10600 6200 60  0001 L CNN
+F 4 "151-1206-1-ND" H 10600 6300 60  0001 L CNN "Digi-Key_PN"
+F 5 "690-005-299-043" H 10600 6400 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10600 6500 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 10600 6600 60  0001 L CNN "Family"
+F 8 "http://files.edac.net/690-005-299-043.pdf" H 10600 6700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192" H 10600 6800 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MINI B SMD R/A" H 10600 6900 60  0001 L CNN "Description"
+F 11 "EDAC Inc." H 10600 7000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10600 7100 60  0001 L CNN "Status"
+	1    10400 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E102BBB
+P 8700 3000
+F 0 "#PWR0102" H 8700 2750 50  0001 C CNN
+F 1 "GND" H 8705 2827 50  0000 C CNN
+F 2 "" H 8700 3000 50  0001 C CNN
+F 3 "" H 8700 3000 50  0001 C CNN
+	1    8700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E1043C9
+P 9400 6100
+F 0 "#PWR0103" H 9400 5850 50  0001 C CNN
+F 1 "GND" H 9405 5927 50  0000 C CNN
+F 2 "" H 9400 6100 50  0001 C CNN
+F 3 "" H 9400 6100 50  0001 C CNN
+	1    9400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5E104C1F
+P 9400 4650
+F 0 "#PWR0104" H 9400 4500 50  0001 C CNN
+F 1 "VCC" H 9417 4823 50  0000 C CNN
+F 2 "" H 9400 4650 50  0001 C CNN
+F 3 "" H 9400 4650 50  0001 C CNN
+	1    9400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5E1060A2
+P 1400 1450
+F 0 "#PWR0105" H 1400 1300 50  0001 C CNN
+F 1 "VCC" H 1417 1623 50  0000 C CNN
+F 2 "" H 1400 1450 50  0001 C CNN
+F 3 "" H 1400 1450 50  0001 C CNN
+	1    1400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E106521
+P 1400 2150
+F 0 "#PWR0106" H 1400 1900 50  0001 C CNN
+F 1 "GND" H 1405 1977 50  0000 C CNN
+F 2 "" H 1400 2150 50  0001 C CNN
+F 3 "" H 1400 2150 50  0001 C CNN
+	1    1400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1450 1400 1650
+Wire Wire Line
+	1400 1950 1400 2150
+$Comp
+L power:VCC #PWR0107
+U 1 1 5E1077DB
+P 2000 3400
+F 0 "#PWR0107" H 2000 3250 50  0001 C CNN
+F 1 "VCC" H 2017 3573 50  0000 C CNN
+F 2 "" H 2000 3400 50  0001 C CNN
+F 3 "" H 2000 3400 50  0001 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E107C3B
+P 2000 6750
+F 0 "#PWR0108" H 2000 6500 50  0001 C CNN
+F 1 "GND" H 2005 6577 50  0000 C CNN
+F 2 "" H 2000 6750 50  0001 C CNN
+F 3 "" H 2000 6750 50  0001 C CNN
+	1    2000 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5100 8100 5100
+Wire Wire Line
+	9400 4650 9400 5000
+Wire Wire Line
+	9400 5000 9500 5000
+Wire Wire Line
+	9400 5400 9500 5400
+Text GLabel 6650 5300 0    50   Input ~ 0
+ID
+Wire Wire Line
+	8100 5800 8100 5950
+Wire Wire Line
+	8100 5950 8750 5950
+Wire Wire Line
+	8750 5950 8750 5800
+Wire Wire Line
+	8750 5950 9400 5950
+Wire Wire Line
+	9400 5400 9400 5950
+Connection ~ 8750 5950
+Connection ~ 9400 5950
+Wire Wire Line
+	7850 5100 8100 5100
+Connection ~ 8100 5100
+Text GLabel 6650 5200 0    50   Input ~ 0
+D+
+Text GLabel 6650 5100 0    50   Input ~ 0
+D-
+Wire Wire Line
+	6650 5100 7450 5100
+Wire Wire Line
+	6650 5200 6900 5200
+Wire Wire Line
+	6650 5300 9500 5300
+Wire Wire Line
+	8800 4800 8800 5000
+Wire Wire Line
+	8800 5000 9400 5000
+Connection ~ 9400 5000
+Wire Wire Line
+	8800 4400 8800 4100
+Wire Wire Line
+	8100 4100 8100 4400
+Wire Wire Line
+	8100 4100 8800 4100
+Wire Wire Line
+	8100 4800 8100 5100
+Wire Notes Line
+	6300 3900 6300 6350
+Wire Notes Line
+	6300 6350 11050 6350
+Wire Notes Line
+	11050 6350 11050 3900
+Wire Notes Line
+	11050 3900 6300 3900
+Text Notes 6550 4150 0    50   ~ 10
+MINI-USB-MODULE\n
+Wire Wire Line
+	8700 2500 8700 3000
+Text GLabel 8800 2400 2    50   Input ~ 0
+MOSI
+Text GLabel 3450 5100 2    50   Input ~ 0
+MOSI
+Text GLabel 7650 2500 0    50   Input ~ 0
+RST
+Text GLabel 3450 4800 2    50   Input ~ 0
+RST
+Text GLabel 7650 2400 0    50   Input ~ 0
+SCK
+Text GLabel 7650 2300 0    50   Input ~ 0
+MISO
+Text GLabel 3450 4900 2    50   Input ~ 0
+SCK
+Text GLabel 3450 5000 2    50   Input ~ 0
+MISO
+Text GLabel 3450 4500 2    50   Input ~ 0
+D-
+Text GLabel 3450 5200 2    50   Input ~ 0
+D+
+Wire Notes Line
+	6250 950  6250 3400
+Wire Notes Line
+	10950 3400 10950 950 
+Wire Notes Line
+	850  1000 850  2450
+Wire Notes Line
+	850  2450 2500 2450
+Wire Notes Line
+	2500 2450 2500 1000
+Wire Notes Line
+	2500 1000 850  1000
+Text Notes 2950 3350 0    50   ~ 10
+ATTINY44-MODULE\n
+Text Notes 1700 2250 0    50   ~ 10
+FILTER-MODULE\n
+Text Notes 6450 3200 0    50   ~ 10
+ISP-CONNECTOR-MODULE\n
+Wire Wire Line
+	8500 2400 8800 2400
+Wire Wire Line
+	8500 2500 8700 2500
+Wire Wire Line
+	7650 2500 7900 2500
+Wire Wire Line
+	7650 2300 8000 2300
+$Comp
+L SparkFun-Connectors:CONN_03X2FEMALE_SMD J4
+U 1 1 5E15864D
+P 8250 2400
+F 0 "J4" H 8250 2810 45  0000 C CNN
+F 1 "ISP-CONNECTOR" H 8250 2726 45  0000 C CNN
+F 2 "2X3_SMD" H 8250 2700 20  0001 C CNN
+F 3 "" H 8250 2400 50  0001 C CNN
+F 4 "CONN-11290" H 8250 2631 60  0000 C CNN "Field4"
+	1    8250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:1.0UF-1206-50V-10% C1
+U 1 1 5E0FF2CC
+P 1400 1850
+F 0 "C1" H 1508 1995 45  0000 L CNN
+F 1 "1uF" H 1508 1911 45  0000 L CNN
+F 2 "1206" H 1400 2100 20  0001 C CNN
+F 3 "" H 1400 1850 50  0001 C CNN
+F 4 "CAP-09822" H 1508 1816 60  0000 L CNN "Field4"
+	1    1400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R6
+U 1 1 5E106932
+P 7600 2700
+F 0 "R6" H 7600 3000 45  0000 C CNN
+F 1 "JUMPER1" H 7600 2916 45  0000 C CNN
+F 2 "1206" H 7600 2850 20  0001 C CNN
+F 3 "" H 7600 2700 60  0001 C CNN
+F 4 "RES-08705" H 7600 2821 60  0000 C CNN "Field4"
+	1    7600 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R4
+U 1 1 5E110B9B
+P 8100 4600
+F 0 "R4" V 8005 4668 45  0000 L CNN
+F 1 "1k" V 8089 4668 45  0000 L CNN
+F 2 "1206" H 8100 4750 20  0001 C CNN
+F 3 "" H 8100 4600 60  0001 C CNN
+F 4 "RES-08705" V 8184 4668 60  0000 L CNN "Field4"
+	1    8100 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R5
+U 1 1 5E111D3F
+P 8800 4600
+F 0 "R5" V 8705 4668 45  0000 L CNN
+F 1 "499" V 8789 4668 45  0000 L CNN
+F 2 "1206" H 8800 4750 20  0001 C CNN
+F 3 "" H 8800 4600 60  0001 C CNN
+F 4 "RES-08705" V 8884 4668 60  0000 L CNN "Field4"
+	1    8800 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R2
+U 1 1 5E1122FA
+P 7100 5200
+F 0 "R2" H 7100 4900 45  0000 C CNN
+F 1 "100" H 7100 4984 45  0000 C CNN
+F 2 "1206" H 7100 5350 20  0001 C CNN
+F 3 "" H 7100 5200 60  0001 C CNN
+F 4 "RES-08705" H 7100 5079 60  0000 C CNN "Field4"
+	1    7100 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R3
+U 1 1 5E11315A
+P 7650 5100
+F 0 "R3" H 7650 4800 45  0000 C CNN
+F 1 "100" H 7650 4884 45  0000 C CNN
+F 2 "1206" H 7650 5250 20  0001 C CNN
+F 3 "" H 7650 5100 60  0001 C CNN
+F 4 "RES-08705" H 7650 4979 60  0000 C CNN "Field4"
+	1    7650 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z2
+U 1 1 5E1157A9
+P 8750 5600
+F 0 "Z2" V 8803 5497 60  0000 R CNN
+F 1 "3V3" V 8697 5497 60  0000 R CNN
+F 2 "digikey-footprints:SOD-123" H 8950 5800 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 8950 5900 60  0001 L CNN
+F 4 "MMSZ5231B-FDICT-ND" H 8950 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMSZ5231B-7-F" H 8950 6100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8950 6200 60  0001 L CNN "Category"
+F 7 "Diodes - Zener - Single" H 8950 6300 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 8950 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/MMSZ5231B-7-F/MMSZ5231B-FDICT-ND/755506" H 8950 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE ZENER 5.1V 500MW SOD123" H 8950 6600 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 8950 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 6800 60  0001 L CNN "Status"
+	1    8750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Diodes-Zener-Single:MMSZ5231B-7-F Z1
+U 1 1 5E11690F
+P 8100 5600
+F 0 "Z1" V 8153 5497 60  0000 R CNN
+F 1 "3V3" V 8047 5497 60  0000 R CNN
+F 2 "digikey-footprints:SOD-123" H 8300 5800 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 8300 5900 60  0001 L CNN
+F 4 "MMSZ5231B-FDICT-ND" H 8300 6000 60  0001 L CNN "Digi-Key_PN"
+F 5 "MMSZ5231B-7-F" H 8300 6100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8300 6200 60  0001 L CNN "Category"
+F 7 "Diodes - Zener - Single" H 8300 6300 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 8300 6400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/MMSZ5231B-7-F/MMSZ5231B-FDICT-ND/755506" H 8300 6500 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE ZENER 5.1V 500MW SOD123" H 8300 6600 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 8300 6700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8300 6800 60  0001 L CNN "Status"
+	1    8100 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 5200 8750 5200
+Wire Wire Line
+	8100 5400 8100 5100
+Wire Wire Line
+	8750 5400 8750 5200
+Connection ~ 8750 5200
+Wire Wire Line
+	8750 5200 9500 5200
+$Comp
+L MCU_Microchip_ATtiny:ATtiny44-20SSU U2
+U 1 1 5E0E9CA2
+P 2000 5100
+F 0 "U2" H 1471 5146 50  0000 R CNN
+F 1 "ATtiny44-20SSU" H 1471 5055 50  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2000 5100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf" H 2000 5100 50  0001 C CNN
+	1    2000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3400 2000 4200
+Wire Wire Line
+	2000 6000 2000 6750
+$Comp
+L SparkFun-Capacitors:1.0UF-1206-50V-10% C2
+U 1 1 5E0F53C2
+P 4500 1300
+F 0 "C2" H 4608 1445 45  0000 L CNN
+F 1 "10pF" H 4608 1361 45  0000 L CNN
+F 2 "1206" H 4500 1550 20  0001 C CNN
+F 3 "" H 4500 1300 50  0001 C CNN
+F 4 "CAP-09822" H 4550 1250 60  0000 L CNN "Field4"
+	1    4500 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Crystals:ECS-_327-12_5-34B-TR XTAL1
+U 1 1 5E0FC5FB
+P 4200 1700
+F 0 "XTAL1" V 4246 1597 50  0000 R CNN
+F 1 "ECS-_327-12_5-34B-TR" V 4350 1600 50  0000 R CNN
+F 2 "digikey-footprints:SMD-2_3.2x1.5mm" H 4400 1900 60  0001 L CNN
+F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 4400 2000 60  0001 L CNN
+F 4 "XC1617CT-ND" H 4400 2100 60  0001 L CNN "Digi-Key_PN"
+F 5 "ECS-.327-12.5-34B-TR" H 4400 2200 60  0001 L CNN "MPN"
+F 6 "Crystals, Oscillators, Resonators" H 4400 2300 60  0001 L CNN "Category"
+F 7 "Crystals" H 4400 2400 60  0001 L CNN "Family"
+F 8 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 4400 2500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ecs-inc/ECS-.327-12.5-34B-TR/XC1617CT-ND/1693786" H 4400 2600 60  0001 L CNN "DK_Detail_Page"
+F 10 "CRYSTAL 32.7680KHZ 12.5PF SMD" H 4400 2700 60  0001 L CNN "Description"
+F 11 "ECS Inc." H 4400 2800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4400 2900 60  0001 L CNN "Status"
+	1    4200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Capacitors:1.0UF-1206-50V-10% C3
+U 1 1 5E0F445F
+P 4500 2050
+F 0 "C3" H 4250 2200 45  0000 L CNN
+F 1 "10pF" H 4200 2100 45  0000 L CNN
+F 2 "1206" H 4500 2300 20  0001 C CNN
+F 3 "" H 4500 2050 50  0001 C CNN
+F 4 "CAP-09822" H 3950 2000 60  0000 L CNN "Field4"
+	1    4500 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 1300 4200 1300
+Wire Wire Line
+	4200 1300 4200 1550
+Wire Wire Line
+	4300 2050 4200 2050
+Wire Wire Line
+	4200 2050 4200 1850
+Wire Wire Line
+	4600 2050 4850 2050
+Wire Wire Line
+	4850 2050 4850 1700
+Wire Wire Line
+	4850 1300 4600 1300
+$Comp
+L power:GND #PWR0111
+U 1 1 5E10DC87
+P 5100 2250
+F 0 "#PWR0111" H 5100 2000 50  0001 C CNN
+F 1 "GND" H 5105 2077 50  0000 C CNN
+F 2 "" H 5100 2250 50  0001 C CNN
+F 3 "" H 5100 2250 50  0001 C CNN
+	1    5100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1700 5100 1700
+Wire Wire Line
+	5100 1700 5100 2250
+Connection ~ 4850 1700
+Wire Wire Line
+	4850 1700 4850 1300
+Text GLabel 3850 1300 0    50   Input ~ 0
+XTAL1
+Text GLabel 3850 2050 0    50   Input ~ 0
+XTAL2
+Wire Wire Line
+	3850 1300 4200 1300
+Connection ~ 4200 1300
+Wire Wire Line
+	3850 2050 4200 2050
+Connection ~ 4200 2050
+Text GLabel 3450 5400 2    50   Input ~ 0
+XTAL1
+Text GLabel 3450 5500 2    50   Input ~ 0
+XTAL2
+Wire Wire Line
+	2600 5400 3450 5400
+Wire Wire Line
+	2600 5500 3450 5500
+Wire Wire Line
+	2600 5200 3450 5200
+Wire Wire Line
+	2600 4500 3450 4500
+Wire Wire Line
+	2600 4900 3450 4900
+Wire Wire Line
+	2600 5000 3450 5000
+Wire Wire Line
+	2600 4800 3450 4800
+Wire Wire Line
+	2600 5100 3450 5100
+Text GLabel 3450 5600 2    50   Input ~ 0
+D+
+Wire Wire Line
+	3450 5600 2600 5600
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R8
+U 1 1 5E143D2A
+P 7100 2400
+F 0 "R8" H 7100 2700 45  0000 C CNN
+F 1 "10k" H 7100 2616 45  0000 C CNN
+F 2 "1206" H 7100 2550 20  0001 C CNN
+F 3 "" H 7100 2400 60  0001 C CNN
+F 4 "RES-08705" H 7100 2521 60  0000 C CNN "Field4"
+	1    7100 2400
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	6250 3400 10950 3400
+Wire Notes Line
+	6250 950  10950 950 
+Text GLabel 6650 2700 0    50   Input ~ 0
+JUMPER1
+Text GLabel 3450 5700 2    50   Input ~ 0
+JUMPER1
+Wire Wire Line
+	3450 5700 2600 5700
+$Comp
+L SparkFun-Resistors:10OHM-1206-1_4W-1% R9
+U 1 1 5E158858
+P 9300 2300
+F 0 "R9" H 9300 2600 45  0000 C CNN
+F 1 "JUMPER2" H 9300 2516 45  0000 C CNN
+F 2 "1206" H 9300 2450 20  0001 C CNN
+F 3 "" H 9300 2300 60  0001 C CNN
+F 4 "RES-08705" H 9300 2421 60  0000 C CNN "Field4"
+	1    9300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2700 7900 2700
+Wire Wire Line
+	7900 2700 7900 2500
+Connection ~ 7900 2500
+Wire Wire Line
+	7900 2500 8000 2500
+$Comp
+L power:VCC #PWR0112
+U 1 1 5E1782E1
+P 9800 2050
+F 0 "#PWR0112" H 9800 1900 50  0001 C CNN
+F 1 "VCC" H 9817 2223 50  0000 C CNN
+F 2 "" H 9800 2050 50  0001 C CNN
+F 3 "" H 9800 2050 50  0001 C CNN
+	1    9800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2300 9800 2300
+Wire Wire Line
+	9800 2300 9800 2050
+$Comp
+L power:VCC #PWR0101
+U 1 1 5E1027B7
+P 7100 2100
+F 0 "#PWR0101" H 7100 1950 50  0001 C CNN
+F 1 "VCC" H 7117 2273 50  0000 C CNN
+F 2 "" H 7100 2100 50  0001 C CNN
+F 3 "" H 7100 2100 50  0001 C CNN
+	1    7100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2100 7100 2200
+Wire Wire Line
+	7100 2600 7100 2700
+Wire Wire Line
+	7100 2700 7400 2700
+Wire Wire Line
+	6650 2700 7100 2700
+Connection ~ 7100 2700
+Text Notes 4750 950  0    50   ~ 10
+CRYSTAL-MODULE\n
+Wire Notes Line
+	3450 2650 3450 650 
+Wire Notes Line
+	3450 650  5650 650 
+Wire Notes Line
+	5650 650  5650 2650
+Wire Notes Line
+	5650 2650 3450 2650
+Wire Notes Line
+	550  3000 550  7100
+Wire Notes Line
+	550  7100 4000 7100
+Wire Notes Line
+	4000 7100 4000 3000
+Wire Notes Line
+	4000 3000 550  3000
+Wire Wire Line
+	9400 5950 9400 6100
+Wire Wire Line
+	7650 2400 8000 2400
+Wire Wire Line
+	8500 2300 9100 2300
+$EndSCHEMATC
