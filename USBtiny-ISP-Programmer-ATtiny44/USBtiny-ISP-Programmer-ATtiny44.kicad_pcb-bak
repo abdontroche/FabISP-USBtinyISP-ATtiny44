@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (date 2020-01-02)
+    (rev rv01)
+    (comment 2 SOURCE:http://academy.cba.mit.edu/classes/embedded_programming/index.html#programmers)
+    (comment 3 "LICENSE: MIT")
+    (comment 4 "AUTHOR: ABDON TROCHE")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
