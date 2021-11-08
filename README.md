@@ -5,7 +5,7 @@ This is a version of the FabISP programmer that is used in the Fab Academy cours
 
 The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. That is, it allows you to program the microcontrollers on other boards you make, using nothing but a USB cable and 6-pin IDC to 6-pin IDC cable. It's based on the [USBtiny](https://dicks.home.xs4all.nl/avr/usbtiny/) and [V-USB](www.obdev.at/products/vusb/) firmwares, which allow the ATtiny44 to perform USB communication in software. Programming can be done through avrdude. 
 
-This version was made using the [software KiCad version 5.1.2](https://kicad-pcb.org/)
+This version was made using the [software KiCad version 5.1.2](https://kicad.org/)
 
 [Download-Project](USBtiny-ISP-Programmer-ATtiny44/USBtiny-ISP-Programme-ATtiny44.pro)
 
